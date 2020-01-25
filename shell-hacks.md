@@ -1,7 +1,12 @@
-#System recovery
+# System recovery
 
-	* Bearbeiten der /etc/sudoers, falls File corrupted -> pkexec visudo
+	+ Bearbeiten der /etc/sudoers, falls File corrupted -> pkexec visudo
 
-#disown command
+# Disown command
 
-	* Schnelle Variante in Fish -> disown %1
+	+ disown %1
+
+# Ausführen eines Programmes vom Terminal (hinzufügen)
+
+	+ Erstellen Link in /usr/local/bin
+		+ sudo ln -s /path/to/file CommandToExecute
