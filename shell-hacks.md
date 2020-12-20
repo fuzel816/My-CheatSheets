@@ -1,7 +1,3 @@
-# System recovery
-
-  + Bearbeiten der /etc/sudoers, falls File corrupted -> pkexec visudo
-
 # Disown command
 
   + disown %1
