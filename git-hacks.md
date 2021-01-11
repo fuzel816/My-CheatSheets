@@ -1,25 +1,28 @@
 Übersicht diverser Befehle für Terminal Version Control
 #git diff (Für den Vergleich verschiedener Versionen im Repository)
 
-  -Vergleich zwischen dem aktuellen commit und den getätigten Änderungen -> git diff HEAD
+  - Vergleich zwischen dem aktuellen commit und den getätigten Änderungen -> git diff HEAD
+  - Vergleich der Änderungen zwischen zwei branches (hier: master, branchname) -> git diff master...branchname (--name-only)
 
 #git add
 
-  -Hizufügen mehrererer Files mit einer bestimmten Endung -> git add \*.txt
+  - Hizufügen mehrererer Files mit einer bestimmten Endung -> git add \*.txt
 
 #git branch (Verwalten der einzelnen Branches)
 
-  -Löschen eines lokalen Branches -> git branch -d "Branchname"
+  - Löschen eines lokalen Branches -> git branch -d "Branchname"
+  - Umbenennen eines lokalen Branches wenn auf diesen ausgecheckt -> git branch -m <new name>
+  - Anzeigen aller branches -> git branch -a
 
 #git mergetool (manuelles Zusammenführen)
 
-  -zum Lösen eines entstehenden Merge Errors -> git mergetool
+  - vzum Lösen eines entstehenden Merge Errors -> git mergetool
   |####LOCAL####|####BASE####|####REMOTE####|
   |#################MERGED##################|
-  -LOCAL:  Datei auf dem aktuellen Branch -> :diffg LO
-  -BASE:   Datei vor dem Merge Versuch -> :diffg BA
-  -REMOTE: Datei aus Mergeversuch -> :diffg RE
+  - LOCAL:  Datei auf dem aktuellen Branch -> :diffg LO
+  - BASE:   Datei vor dem Merge Versuch -> :diffg BA
+  - REMOTE: Datei aus Mergeversuch -> :diffg RE
 
 #git reset
 
-  -rücksetzen eines ungewollten commits (datein in commit, die da nicht reingehören)-> git reset --soft (--hard) HEAD~1
+  - Rücksetzen eines ungewollten commits (datein in commit, die da nicht reingehören)-> git reset --soft (--hard) HEAD~1
