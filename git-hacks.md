@@ -3,6 +3,7 @@
 
   - Vergleich zwischen dem aktuellen commit und den getätigten Änderungen -> git diff HEAD
   - Vergleich der Änderungen zwischen zwei branches (hier: master, branchname) -> git diff master...branchname (--name-only)
+  - Vergleich der Änderungen zwischen zwei commits einer Datei -> git diff HEAD~<1>:<path-to-file> <path-to-file> (<1> stellt die Tiefe des commits dar)
 
 #git add
 
