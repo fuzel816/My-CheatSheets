@@ -27,3 +27,9 @@
 # git reset
 
   - Rücksetzen eines ungewollten commits (datein in commit, die da nicht reingehören)-> git reset --soft (--hard) HEAD~1
+
+#  git stash
+
+*GIT STASH IST GEFÄHRLICH*
+
+- Anzeigen des Stash mit Logeintrag -> git stash list
