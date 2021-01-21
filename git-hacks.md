@@ -24,6 +24,12 @@
   - BASE:   Datei vor dem Merge Versuch -> :diffg BA
   - REMOTE: Datei aus Mergeversuch -> :diffg RE
 
+# git rebase
+
+  - Aktualisieren eines Branches, auf den nicht ausgecheckt wurde
+  - Hilfreich, wenn ein Feature auf einem anderen Branch implementiert wurde, der auf dem aktuellen Branch benötigt wird
+  - Auf ausgecheckten branch -> git rebase <remote-branch>
+
 # git reset
 
   - Rücksetzen eines ungewollten commits (datein in commit, die da nicht reingehören)-> git reset --soft (--hard) HEAD~1
