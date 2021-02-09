@@ -1,3 +1,7 @@
+# Netzwerkeinstellungen #
+
+  + Umschalten des Wlans: nmcli radio wifi off
+
 # Disown command
 
   + disown %1
@@ -16,4 +20,5 @@
 
 # Teilen der Internetverbindung
 
+Folgenden Eintrag noch einmal bestätigen
   + sudo iptables -t nat -A POSTROUTING -s 10.10.0.0/16 -o <IPINTERFACENAME_HERE> -j MASQUERADE
