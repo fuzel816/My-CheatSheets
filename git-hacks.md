@@ -30,6 +30,10 @@
   - Hilfreich, wenn ein Feature auf einem anderen Branch implementiert wurde, der auf dem aktuellen Branch benötigt wird
   - Auf ausgecheckten branch -> git rebase <remote-branch>
 
+# git ref-list
+
+  - Bei einem divergierten Branch kann über den reflog Befehl die jeweilig unterschiedlichen Commits eingesehen werden -> git rev-list origin..HEAD (Was ist bis HEAD aber nicht im origin)
+
 # git reset
 
   - Rücksetzen eines ungewollten commits (datein in commit, die da nicht reingehören)-> git reset --soft (--hard) HEAD~1
