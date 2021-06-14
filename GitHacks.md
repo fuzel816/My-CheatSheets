@@ -3,10 +3,6 @@
 
   -Vergleich zwischen dem aktuellen commit und den getätigten Änderungen -> git diff HEAD
 
-#git add
-
-  -Hizufügen mehrererer Files mit einer bestimmten Endung -> git add \*.txt
-
 #git branch (Verwalten der einzelnen Branches)
 
   -Löschen eines lokalen Branches -> git branch -d "Branchname"

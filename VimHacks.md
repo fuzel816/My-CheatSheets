@@ -14,7 +14,7 @@
 #Kopieren über Register
 	* alle register sind über :reg einsehbar
 	* Kopieren in ein Register -> "<Buchstabe>y
-	* Einfügen aus Register -> "<Buchstabe>p 
+	* Einfügen aus Register -> "<Buchstabe>p
 	* Kopieren und Einfügen aus einem Clipboard -> "+p, "+y
 #Ersetzen einzelner Wörter
 ##Variante1: Ofizielles Vim Doc
@@ -31,7 +31,9 @@
 	* Cyclen durch das Verzeichnis im workspace -> :e >> Ctrl+D (Übersicht) >> Tab (Auswählen des Programmes)
 #Split View
 	* vsp -> Vertical Split
-	* sp -> Horizontal Split 
+	* sp -> Horizontal Split
+#Macros
+  * macro über eine visuelle selektion laufen lassen -> :'<,'>normal @q
 =======
 ---
 
