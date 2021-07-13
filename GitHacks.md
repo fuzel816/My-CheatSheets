@@ -5,11 +5,11 @@
   - Vergleich der Änderungen zwischen zwei branches (hier: master, branchname) -> git diff master...branchname (--name-only)
   - Vergleich der Änderungen zwischen zwei commits einer Datei -> git diff HEAD~<1>:<path-to-file> <path-to-file> (<1> stellt die Tiefe des commits dar)
 
-# git add
+#git branch (Verwalten der einzelnen Branches)
 
-  - Hizufügen mehrererer Files mit einer bestimmten Endung -> git add \*.txt
+  -Löschen eines lokalen Branches -> git branch -d "Branchname"
 
-# git branch (Verwalten der einzelnen Branches)
+#git mergetool (manuelles Zusammenführen)
 
   - Löschen eines lokalen Branches -> git branch -d "Branchname"
   - Umbenennen eines lokalen Branches wenn auf diesen ausgecheckt -> git branch -m <new name>

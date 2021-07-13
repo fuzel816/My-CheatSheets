@@ -32,6 +32,8 @@
 #Split View
 	* vsp -> Vertical Split
 	* sp -> Horizontal Split
+#Macros
+  * macro über eine visuelle selektion laufen lassen -> :'<,'>normal @q
 =======
 ---
 
