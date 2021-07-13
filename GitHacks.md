@@ -43,3 +43,31 @@
 *GIT STASH IST GEFÄHRLICH*
 
 - Anzeigen des Stash mit Logeintrag -> git stash list
+
+# Move Commits to another branch #
+
+From https://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git
+
+```
+master A - B - C - D - E
+
+newbranch     -C - D - E
+             /
+master A - B-
+
+```
+
+``` git
+git checkout existingbranch
+git merge master
+git checkout master
+git reset --hard HEAD~3 # Go back 3 commits. You *will* lose uncommitted work.
+git checkout existingbranch
+```
+
+# Git dry run #
+
+- Set of dry run operations to see if there will be merge conflicts
+
+git merge --no-commit --no-ff
+
