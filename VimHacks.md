@@ -76,14 +76,15 @@
 
 #Directory View
 
-* Vertikales öffnen -> **:Vex**
-* Horizontales öffnen -> **:Sex**
-* Cyclen durch das Verzeichnis im workspace -> **:e** >> **Ctrl+D** (Übersicht) >> **Tab** (Auswählen des Programmes)
+* Allgemeines Öffnen -> `:Ex`
+* Vertikales öffnen -> `:Vex`
+* Horizontales öffnen -> `:Sex`
+* Cyclen durch das Verzeichnis im workspace -> `:e` >> `Ctrl+D` (Übersicht) >> `Tab` (Auswählen des Programmes)
 
 #Split View
 
-* **vsp** -> Vertical Split
-* **sp** -> Horizontal Split
+* `vsp` -> Vertical Split
+* `sp` -> Horizontal Split
 
 #check Spell, Spellsettings
 
@@ -97,3 +98,13 @@ Entfernen des Wortes aus dem Wörterbuch -> zug
 # Marcros #
 
 Ausführen eines Macros über eine visuelle Selektion -> :normal @q (Ausführen des Makros q)
+
+# Fugitive Plugin #
+
+Reset einzelner Zeilen: 
+```
+:Gdiff
+Visual selection
+:diffput / :diffget
+```
+
